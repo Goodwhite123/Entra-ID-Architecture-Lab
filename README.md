@@ -21,8 +21,12 @@ O laboratório foi estruturado em três pilares fundamentais de IAM:
 ### 1. Provisionamento de Identidades e Separação Lógica
 Foram criadas contas de usuários baseadas em departamentos para simular um ambiente real de produção:
 * **Departamento de RH:** Usuários padrão (`HR01`, `HR02`, `HR03`) e um administrador departamental (`HRAdmin`).
-* <img width="1153" height="171" alt="Screenshot 2026-10-12 230551" src="https://github.com/user-attachments/assets/55b0f0a8-0a64-4ad9-b2f8-8874da3b3b6d" />
+* 
+<img width="1153" height="171" alt="Screenshot 2026-10-12 230551" src="https://github.com/user-attachments/assets/55b0f0a8-0a64-4ad9-b2f8-8874da3b3b6d" />
+
 * **Departamento de TI:** Usuários padrão (`IT01`, `IT02`, `IT03`) e um administrador departamental (`ITAdmin`).
+
+<img width="1007" height="173" alt="Screenshot 2026-10-12 230709" src="https://github.com/user-attachments/assets/598f5b9b-d62d-4487-96ee-bb017d9a39d3" />
 
 ### 2. Delegação de Privilégios com Administrative Units (AUs)
 Para evitar a concessão de privilégios globais (Global Administrator) e respeitar o conceito de Zero Trust, a administração de contas foi segmentada:

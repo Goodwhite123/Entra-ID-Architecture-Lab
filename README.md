@@ -41,6 +41,9 @@ Para evitar a concessão de privilégios globais (Global Administrator) e respei
 Para gerenciar a autorização e o acesso a recursos corporativos, foram estruturados Grupos de Segurança:
 * Criação dos grupos `HR-GROUP` e `IT-Group`.
 * **Self-Service Group Management:** Os administradores departamentais (`HRAdmin` e `ITAdmin`) foram definidos como **Owners** (proprietários) de seus respectivos grupos.
+
+<img width="1622" height="305" alt="image" src="https://github.com/user-attachments/assets/49abb26a-8bd0-400f-b618-00f1547fb0d5" />
+
 * **Valor para o Negócio:** O processo de autorização foi descentralizado. O líder de cada departamento tem autonomia para adicionar ou remover membros dos grupos de acesso sem depender da TI Global, agilizando o onboarding de novos colaboradores e garantindo que o acesso a aplicativos (Enterprise Applications) seja gerenciado por quem entende a necessidade da área.
 
 ---

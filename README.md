@@ -52,6 +52,3 @@ Para gerenciar a autorização e o acesso a recursos corporativos, foram estrutu
 <img width="1624" height="281" alt="Screenshot 2026-10-12 231542" src="https://github.com/user-attachments/assets/140e7ccd-7646-47c2-9987-44360f9ec740" />
 
 * **Valor para o Negócio:** O processo de autorização foi descentralizado. O líder de cada departamento tem autonomia para adicionar ou remover membros dos grupos de acesso sem depender da TI Global, agilizando o onboarding de novos colaboradores e garantindo que o acesso a aplicativos (Enterprise Applications) seja gerenciado por quem entende a necessidade da área.
-
-## 👨‍💻 Sobre o Autor
-**Gabriel Saes de Sousa**  

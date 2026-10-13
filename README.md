@@ -35,6 +35,11 @@ Para evitar a concessão de privilégios globais (Global Administrator) e respei
 <img width="1370" height="121" alt="image" src="https://github.com/user-attachments/assets/620b2f83-8cbd-4e07-89f4-cffee52be42e" />
 
 * **RBAC na Prática:** O usuário `HRAdmin` recebeu a role de *Helpdesk Administrator* com escopo restrito **apenas** à AU de Recursos Humanos. O mesmo foi aplicado ao `ITAdmin` para a AU de TI.
+
+<img width="1347" height="151" alt="image" src="https://github.com/user-attachments/assets/d4a30b6e-668c-492c-b0d6-5a506cd9ba25" />
+
+<img width="1342" height="155" alt="Screenshot 2026-10-12 232126" src="https://github.com/user-attachments/assets/9f457849-4573-4d83-b876-b50a3f47bbd7" />
+
 * **Resultado:** Os administradores departamentais conseguem gerenciar o ciclo de vida (ex: reset de senhas) apenas dos usuários do seu próprio setor, limitando o raio de impacto de um possível comprometimento de credencial.
 
 ### 3. Controle de Acesso e Gestão Descentralizada de Grupos

@@ -48,16 +48,5 @@ Para gerenciar a autorização e o acesso a recursos corporativos, foram estrutu
 
 * **Valor para o Negócio:** O processo de autorização foi descentralizado. O líder de cada departamento tem autonomia para adicionar ou remover membros dos grupos de acesso sem depender da TI Global, agilizando o onboarding de novos colaboradores e garantindo que o acesso a aplicativos (Enterprise Applications) seja gerenciado por quem entende a necessidade da área.
 
----
-
-## 🚀 Próximos Passos (Evolução da Arquitetura)
-Como evolução natural deste ambiente, a arquitetura está preparada para receber:
-1. **Integração de Enterprise Applications:** Vinculação de aplicativos SaaS (ex: Sistemas de Folha de Pagamento) aos Security Groups para provisionamento de acesso via SSO.
-2. **Microsoft 365 Groups:** Criação de grupos focados em colaboração (Teams, SharePoint, Calendários) operando em paralelo com os grupos de segurança.
-3. **Políticas de Conditional Access:** Exigência de MFA (Multi-Factor Authentication) com base no risco do usuário ou localização de rede.
-
----
-
 ## 👨‍💻 Sobre o Autor
 **Gabriel Saes de Sousa**  
-*Estudante de Cybersecurity focado em Cloud Security e Identity and Access Management (IAM).*

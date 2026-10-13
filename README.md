@@ -1,4 +1,4 @@
-# 🛡️ Microsoft Entra ID - Arquitetura de IAM e Delegação de Acessos
+# 🛡️ Microsoft Entra ID - Arquitetura de IAM
 
 ## 📝 Descrição do Projeto
 Este projeto é um laboratório prático focado em **Identity and Access Management (IAM)** utilizando o Microsoft Entra ID. O objetivo principal foi desenhar e implementar uma arquitetura de identidades segura, aplicando conceitos de **Zero Trust**, **Princípio do Menor Privilégio (PoLP)** e **Gestão Descentralizada**.

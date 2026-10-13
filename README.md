@@ -21,7 +21,7 @@ O laboratório foi estruturado em três pilares fundamentais de IAM:
 ### 1. Provisionamento de Identidades e Separação Lógica
 Foram criadas contas de usuários baseadas em departamentos para simular um ambiente real de produção:
 * **Departamento de RH:** Usuários padrão (`HR01`, `HR02`, `HR03`) e um administrador departamental (`HRAdmin`).
-* 
+
 <img width="1153" height="171" alt="Screenshot 2026-10-12 230551" src="https://github.com/user-attachments/assets/55b0f0a8-0a64-4ad9-b2f8-8874da3b3b6d" />
 
 * **Departamento de TI:** Usuários padrão (`IT01`, `IT02`, `IT03`) e um administrador departamental (`ITAdmin`).
@@ -31,6 +31,9 @@ Foram criadas contas de usuários baseadas em departamentos para simular um ambi
 ### 2. Delegação de Privilégios com Administrative Units (AUs)
 Para evitar a concessão de privilégios globais (Global Administrator) e respeitar o conceito de Zero Trust, a administração de contas foi segmentada:
 * Criação das Administrative Units: `AU-HR-USERS` e `AU-IT-USER`.
+
+<img width="1370" height="121" alt="image" src="https://github.com/user-attachments/assets/620b2f83-8cbd-4e07-89f4-cffee52be42e" />
+
 * **RBAC na Prática:** O usuário `HRAdmin` recebeu a role de *Helpdesk Administrator* com escopo restrito **apenas** à AU de Recursos Humanos. O mesmo foi aplicado ao `ITAdmin` para a AU de TI.
 * **Resultado:** Os administradores departamentais conseguem gerenciar o ciclo de vida (ex: reset de senhas) apenas dos usuários do seu próprio setor, limitando o raio de impacto de um possível comprometimento de credencial.
 
